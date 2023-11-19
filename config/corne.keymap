@@ -44,9 +44,9 @@ keymap {
     // | SHFT -  Z  |  X  |  C  |  V  |  B  ||||  N  |  M   |  ,  |  .  |  /  | 
 //                    | GUI | LWR | SPC |||| ENT | RSE  | ALT |
                         bindings = <
-   &mt TAB Q     &kp W    &kp E    &kp R     &kp T             &kp Y     &kp U      &kp I     &kp O     &kp P    
-   &mt LCTRL A   &kp S    &kp D    &kp F     &kp G             &kp H     &kp J      &kp K     &kp L     &kp SEMI
-   &mt LSHFT Z    &kp X    &kp C    &kp V    &kp B             &kp N     &kp M      &kp COMMA &kp DOT   &kp FSLH
+   &trans &mt TAB Q     &kp W    &kp E    &kp R     &kp T             &kp Y     &kp U      &kp I     &kp O     &kp P    &trans
+   &trans &mt LCTRL A   &kp S    &kp D    &kp F     &kp G             &kp H     &kp J      &kp K     &kp L     &kp SEMI  &trans
+ &trans  &mt LSHFT Z    &kp X    &kp C    &kp V    &kp B             &kp N     &kp M      &kp COMMA &kp DOT   &kp FSLH &trans
    &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
                         >;
                 };
@@ -57,9 +57,9 @@ keymap {
 // | BT_C| BT_P| BT_N|C_BRI_DN| C_BRI_UP|   |C_VOL_UP|C_VOL_DN|C_MUTE|     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-  &kp N1     &kp N2     &kp N3      &kp N4      &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0
-  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
-  &bt BT_CLR &bt BT_PRV  &bt BT_NXT   &kp C_BRI_DN   &kp C_BRI_UP    &kp C_VOL_UP  &kp C_VOL_DN  &kp C_MUTE  &trans &trans
+ &trans &kp N1     &kp N2     &kp N3      &kp N4      &kp N5         &kp N6     &kp N7     &kp N8     &kp N9     &kp N0 &trans
+&trans  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
+&trans  &bt BT_CLR &bt BT_PRV  &bt BT_NXT   &kp C_BRI_DN   &kp C_BRI_UP    &kp C_VOL_UP  &kp C_VOL_DN  &kp C_MUTE  &trans &trans &trans
                                     &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
                         >;
                 };
@@ -71,9 +71,9 @@ keymap {
 // |  ~  |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" | 
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp EXCL   &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR 
-   &kp GRAVE  &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH 
-   &kp TILDE  &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC      &kp RBRC &kp PIPE 
+&trans   &kp EXCL   &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &trans
+&trans   &kp GRAVE  &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &trans 
+&trans   &kp TILDE  &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC      &kp RBRC &kp PIPE &trans 
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
@@ -84,9 +84,9 @@ keymap {
 // | SHFT |    |     |     |     |  |    |    |    |     |  ESC |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &trans &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp BSPC
-   &kp LCTRL &trans  &trans &trans   &trans   &trans  &trans  &trans  &trans  &kp SQT
-   &kp LSHFT &trans  &trans &trans   &trans   &trans &trans    &trans    &trans   &kp ESC
+  &trans &kp  TAB  &trans &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp BSPC &trans
+  &trans &kp LCTRL &trans  &trans &trans   &trans   &trans  &trans  &trans  &trans  &kp SQT &trans
+  &trans &kp LSHFT &trans  &trans &trans   &trans   &trans &trans    &trans    &trans   &kp ESC &trans
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
