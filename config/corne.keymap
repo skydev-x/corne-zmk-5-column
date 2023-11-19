@@ -8,6 +8,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+&mt {
+    tapping-term-ms = <400>;
+};
+
 / {
 combos {
         compatible = "zmk,combos";
@@ -29,9 +33,7 @@ combos {
             then-layer = <3>;
         };
 };
-&mt {
-    tapping-term-ms = <400>;
-};
+
 keymap {
   compatible = "zmk,keymap";
 
