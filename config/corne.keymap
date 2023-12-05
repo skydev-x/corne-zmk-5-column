@@ -96,19 +96,19 @@
 
         fun_layer {
             bindings = <
-&trans  &kp F1  &kp F4  &kp F7  &kp F10  &kp C_VOL_UP    &kp C_BRIGHTNESS_INC  &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp ESC        &trans
-&trans  &kp F2  &kp F5  &kp F8  &kp F11  &kp C_MUTE      &kp C_PLAY_PAUSE      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT      &trans
-&trans  &kp F3  &kp F6  &kp F9  &kp F12  &kp C_VOL_DN    &kp C_BRIGHTNESS_DEC  &kp K_UNDO      &kp K_REDO      &kp PAGE_UP   &kp PAGE_DOWN  &trans
+&trans  &kp F1  &kp F4  &kp F7  &kp F10  &kp C_VOL_UP    &kp C_BRIGHTNESS_INC  &kp K_PASTE     &kp UP_ARROW    &kp K_COPY  &kp ESC        &trans
+&trans  &kp F2  &kp F5  &kp F8  &kp F11  &kp C_MUTE      &kp C_PLAY_PAUSE      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT   &kp PG_UP      &trans
+&trans  &kp F3  &kp F6  &kp F9  &kp F12  &kp C_VOL_DN    &kp C_BRIGHTNESS_DEC  &kp K_UNDO      &kp K_REDO      &kp K_CUT   &kp PAGE_DOWN  &trans
                         &trans  &trans   &trans          &trans                &trans          &trans
             >;
         };
 
         sys_layer {
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp POUND     &kp DOLLAR    &kp PERCENT     &kp CARET    &kp AMPS       &kp ASTRK       &kp LPAR      &kp RPAR       &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bootloader  &kp C_AC_COPY  &kp C_AC_PASTE  &kp C_AC_CUT  &kp C_AC_UNDO  &trans
-&trans  &bt BT_CLR    &none         &bt BT_PRV    &bt BT_NXT    &trans          &sys_reset   &trans         &trans          &trans        &trans         &trans
-                                    &trans        &trans        &trans          &trans       &trans         &trans
+&trans  &trans         &trans         &trans         &trans         &trans           &bootloader  &trans      &trans      &trans  &trans      &trans
+&trans  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &trans       &bt BT_PRV  &bt BT_NXT  &none   &bt BT_CLR  &trans
+&trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &sys_reset   &trans      &trans      &trans  &trans      &trans
+                                      &trans         &trans         &trans           &trans       &trans      &trans
             >;
         };
     };
