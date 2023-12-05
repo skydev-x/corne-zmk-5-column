@@ -52,14 +52,14 @@
             key-positions = <33 34>;
         };
 
-        sys_layer_mo {
+        fun_layer_mo {
             bindings = <&mo 3>;
-            key-positions = <39 40 37 38>;
+            key-positions = <38 39>;
         };
 
-        fun_layer_mo {
+        layer_2_combo {
             bindings = <&mo 2>;
-            key-positions = <38 39>;
+            key-positions = <40 41>;
         };
     };
 
@@ -78,19 +78,19 @@
             //              | CTRL | GUI | SPC |||| ENT | ALT  | DEL |
 
             bindings = <
-&none  &kp Q  &kp W  &kp E             &kp R         &kp T        &kp Y        &kp U            &kp I          &kp O    &kp P     &none
-&none  &kp A  &kp S  &kp D             &kp F         &kp G        &kp H        &kp J            &kp K          &kp L    &kp SEMI  &none
-&none  &kp Z  &kp X  &kp C             &kp V         &kp B        &kp N        &kp M            &kp COMMA      &kp DOT  &kp FSLH  &none
+&none  &kp Q  &kp W  &kp F             &kp P         &kp B        &kp J        &kp L            &kp U          &kp Y    &kp SEMICOLON  &none
+&none  &kp A  &kp R  &kp S             &kp T         &kp G        &kp M        &kp N            &kp E          &kp I    &kp O          &none
+&none  &kp Z  &kp X  &kp C             &kp D         &kp V        &kp K        &kp H            &kp COMMA      &kp DOT  &kp FSLH       &none
                      &kp LEFT_CONTROL  &kp LEFT_GUI  &kp SPACE    &lt 1 ENTER  &kp RIGHT_SHIFT  &kp RIGHT_ALT
             >;
         };
 
         numsym_layer {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4        &kp N5           &kp N6     &kp N7         &kp N8            &kp N9            &kp N0             &trans
-&trans  &kp N4  &kp N5  &kp N6  &kp DOT       &kp GRAVE        &kp SQT    &kp MINUS      &kp EQUAL         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp BACKSLASH    &kp SLASH  &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans
-                        &trans  &trans        &trans           &trans     &trans         &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4        &kp N5           &kp N6     &kp N7          &kp N8            &kp N9            &kp N0             &trans
+&trans  &kp N4  &kp N5  &kp N6  &kp DOT       &kp GRAVE        &kp SQT    &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans  &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &kp BACKSLASH    &kp SLASH  &kp LESS_THAN   &kp GREATER_THAN  &kp MINUS         &kp EQUAL          &trans
+                        &trans  &trans        &trans           &trans     &trans          &trans
             >;
         };
 
