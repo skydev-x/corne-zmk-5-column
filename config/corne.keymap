@@ -59,7 +59,7 @@
 
         layer_2_combo {
             bindings = <&mo 2>;
-            key-positions = <40 41>;
+            key-positions = <36 37>;
         };
     };
 
@@ -78,10 +78,10 @@
             //              | CTRL | GUI | SPC |||| ENT | ALT  | DEL |
 
             bindings = <
-&none  &kp Q  &kp W  &kp F             &kp P         &kp B        &kp J        &kp L            &kp U          &kp Y    &kp SEMICOLON  &none
-&none  &kp A  &kp R  &kp S             &kp T         &kp G        &kp M        &kp N            &kp E          &kp I    &kp O          &none
-&none  &kp Z  &kp X  &kp C             &kp D         &kp V        &kp K        &kp H            &kp COMMA      &kp DOT  &kp FSLH       &none
-                     &kp LEFT_CONTROL  &kp LEFT_GUI  &kp SPACE    &lt 1 ENTER  &kp RIGHT_SHIFT  &kp RIGHT_ALT
+&none  &kp Q  &kp W  &kp F             &kp P         &kp B        &kp J        &kp L                &kp U          &kp Y    &kp SEMICOLON  &none
+&none  &kp A  &kp R  &kp S             &kp T         &kp G        &kp M        &kp N                &kp E          &kp I    &kp O          &none
+&none  &kp Z  &kp X  &kp C             &kp D         &kp V        &kp K        &kp H                &kp COMMA      &kp DOT  &kp FSLH       &none
+                     &kp LEFT_CONTROL  &kp LEFT_GUI  &kp SPACE    &lt 1 ENTER  &mt RIGHT_SHIFT DEL  &kp RIGHT_ALT
             >;
         };
 
