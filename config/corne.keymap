@@ -87,10 +87,10 @@
 
         numsym_layer {
             bindings = <
-&trans  &kp N1     &kp N2          &kp N3    &kp N4     &kp N5           &kp N6     &kp N7          &kp N8            &kp N9            &kp N0             &trans
-&trans  &kp PIPE   &kp AT_SIGN     &kp HASH  &kp AMPS   &kp GRAVE        &kp SQT    &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans  &kp QMARK  &kp UNDERSCORE  &kp DQT   &kp COLON  &kp BACKSLASH    &kp SLASH  &kp LESS_THAN   &kp GREATER_THAN  &kp MINUS         &kp EQUAL          &trans
-                                   &trans    &trans     &trans           &trans     &trans          &trans
+&trans  &kp N1       &kp N2          &kp N3            &kp N4             &kp N5      &kp N6         &kp N7            &kp N8     &kp N9     &kp N0        &trans
+&trans  &kp AT_SIGN  &kp DOLLAR      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT     &kp LEFT       &kp DOWN          &kp UP     &kp RIGHT  &kp ASTERISK  &trans
+&trans  &kp GRAVE    &kp UNDERSCORE  &kp DQT           &kp COLON          &kp BSLH    &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS  &kp EQUAL  &kp SLASH     &trans
+                                     &trans            &trans             &trans      &trans         &trans            &trans
             >;
         };
 
