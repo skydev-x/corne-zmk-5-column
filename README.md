@@ -32,24 +32,16 @@ This is nothing new, only important thing is the modifier keys, enter end space 
 
 ### Number and Symbols Layer 
 
-![numsym_layer](docs/chillmin/numsym_layer.png)
+![numsym_layer](docs/chillmin/numsym_md.png)
 - Here we have both num pad and num row
 - Rest of the symbols with some repeats 
 - Design for keeps same use case keys closer.
 
-
-## The other two layers and their combos
-
-![layer_combos](docs/chillmin/layer_combos.png)
-
-- sys layer is top be least visited layer, only needed for bootloader and bluetooth features.
-- fun layer is for functions but pun inteaded with volume and brightness features and easy arrow and vim copy paste cut command bottons near by is it really fun layer.
-
 ## Fun layer
 
-![fun_layer](docs/chillmin/fun_layer.png)
+![fun_layer](docs/chillmin/fun_md.png)
 
 ## System layer
 
-![fun_layer](docs/chillmin/sys_layer.png)
+![fun_layer](docs/chillmin/sys_md.png)
 
