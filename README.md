@@ -28,7 +28,7 @@ This is nothing new, only important thing is the modifier keys, enter end space 
 - Enter keys has layer tap feature, that means holding it will momentarily enble the 1 indexed layer. 
 
  
-![base layer](docs/chillmin/base_layer.png)
+![base layer](docs/chillmin/base_col_md.png)
 
 ### Number and Symbols Layer 
 
