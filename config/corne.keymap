@@ -55,11 +55,6 @@
             key-positions = <33 34>;
         };
 
-        fun_layer_mo {
-            bindings = <&mo 3>;
-            key-positions = <38 39>;
-        };
-
         exclm {
             bindings = <&kp EXCLAMATION>;
             key-positions = <1 13>;
@@ -113,6 +108,11 @@
 
     conditional_layers {
         compatible = "zmk,conditional-layers";
+
+        system_layer {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
     };
 
     keymap {
@@ -120,10 +120,10 @@
 
         base_layer {
             bindings = <
-&none  &kp Q  &kp W  &kp F             &kp P         &kp B          &kp J        &kp L                &kp U                   &kp Y    &kp SEMICOLON  &none
-&none  &kp A  &kp R  &kp S             &kp T         &kp G          &kp M        &kp N                &kp E                   &kp I    &kp O          &none
-&none  &kp Z  &kp X  &kp C             &kp D         &kp V          &kp K        &kp H                &kp COMMA               &kp DOT  &kp FSLH       &none
-                     &kp LEFT_CONTROL  &kp LEFT_GUI  &lt 2 SPACE    &lt 1 ENTER  &mt RIGHT_SHIFT ESC  &mt LEFT_ALT BACKSPACE
+&none  &kp Q  &kp W  &kp F             &kp P         &kp B          &kp J        &kp L                      &kp U             &kp Y    &kp SEMICOLON  &none
+&none  &kp A  &kp R  &kp S             &kp T         &kp G          &kp M        &kp N                      &kp E             &kp I    &kp O          &none
+&none  &kp Z  &kp X  &kp C             &kp D         &kp V          &kp K        &kp H                      &kp COMMA         &kp DOT  &kp FSLH       &none
+                     &kp LEFT_CONTROL  &kp LEFT_GUI  &lt 2 SPACE    &lt 1 ENTER  &mt RIGHT_SHIFT BACKSPACE  &mt LEFT_ALT ESC
             >;
         };
 
