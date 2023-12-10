@@ -104,6 +104,11 @@
             bindings = <&kp RPAR>;
             key-positions = <10 22>;
         };
+
+        layout_switch {
+            bindings = <&tog 4>;
+            key-positions = <36 37 40 41>;
+        };
     };
 
     conditional_layers {
