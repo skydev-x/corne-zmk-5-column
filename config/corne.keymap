@@ -109,6 +109,16 @@
             bindings = <&tog 4>;
             key-positions = <36 37 40 41>;
         };
+
+        system_reset {
+            bindings = <&sys_reset>;
+            key-positions = <3 4 5>;
+        };
+
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <15 16 17>;
+        };
     };
 
     conditional_layers {
