@@ -117,16 +117,14 @@
             bindings = <&bootloader>;
             key-positions = <15 16 17>;
         };
-    };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        system_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
+        system_layer_combo {
+            bindings = <&mo 3>;
+            key-positions = <36 37>;
         };
     };
+
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 
     keymap {
         compatible = "zmk,keymap";
