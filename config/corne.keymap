@@ -15,9 +15,7 @@
     flavor = "balanced";
 };
 
-&lt {
-    tapping-term-ms = <400>;
-};
+&lt { tapping-term-ms = <400>; };
 
 / {
     combos {
@@ -162,10 +160,10 @@
 
         sys_layer {
             bindings = <
-&trans  &trans         &trans         &trans         &trans         &trans           &bootloader  &trans      &trans      &trans  &trans      &trans
-&trans  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &trans       &bt BT_PRV  &bt BT_NXT  &none   &bt BT_CLR  &trans
-&trans  &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &sys_reset   &trans      &trans      &trans  &trans      &trans
-                                      &trans         &trans         &trans           &trans       &trans      &trans
+&trans  &trans        &trans        &bt BT_PRV    &bt BT_NXT    &trans            &none   &trans  &trans  &trans  &trans  &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4      &trans  &none   &none   &none   &none   &trans
+&trans  &bootloader   &sys_reset    &none         &bt BT_CLR    &bt BT_CLR_ALL    &none   &trans  &trans  &trans  &trans  &trans
+                                    &trans        &trans        &trans            &trans  &trans  &trans
             >;
         };
 
