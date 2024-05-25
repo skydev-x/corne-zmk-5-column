@@ -4,7 +4,7 @@
 
 # Introduction to chillmin Layout
 
-> [!warn] not updated
+> [!warning] not updated
 
 ## Layout philosophy
 
