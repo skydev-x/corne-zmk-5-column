@@ -110,17 +110,17 @@
 
         system_reset {
             bindings = <&sys_reset>;
-            key-positions = <3 4 5>;
+            key-positions = <3 4 5 14>;
         };
 
         bootloader {
             bindings = <&bootloader>;
-            key-positions = <15 16 17>;
+            key-positions = <15 16 17 26>;
         };
 
         system_layer_combo {
             bindings = <&mo 3>;
-            key-positions = <36 37>;
+            key-positions = <36 37 38>;
         };
     };
 
@@ -131,28 +131,28 @@
 
         colemak_layer {
             bindings = <
-&none  &kp Q  &kp W  &kp F             &kp P         &kp B          &kp J        &kp L                      &kp U             &kp Y    &kp SEMICOLON  &none
-&none  &kp A  &kp R  &kp S             &kp T         &kp G          &kp M        &kp N                      &kp E             &kp I    &kp O          &none
-&none  &kp Z  &kp X  &kp C             &kp D         &kp V          &kp K        &kp H                      &kp COMMA         &kp DOT  &kp FSLH       &none
-                     &kp LEFT_CONTROL  &kp LEFT_GUI  &lt 2 SPACE    &lt 1 ENTER  &mt RIGHT_SHIFT BACKSPACE  &mt LEFT_ALT ESC
+&none  &kp Q  &kp W  &kp F          &kp P     &kp B          &kp J        &kp L                      &kp U             &kp Y    &kp SEMICOLON  &none
+&none  &kp A  &kp R  &kp S          &kp T     &kp G          &kp M        &kp N                      &kp E             &kp I    &kp O          &none
+&none  &kp Z  &kp X  &kp C          &kp D     &kp V          &kp K        &kp H                      &kp COMMA         &kp DOT  &kp FSLH       &none
+                     &mt LCTRL TAB  &kp LGUI  &lt 2 SPACE    &lt 1 ENTER  &mt RIGHT_SHIFT BACKSPACE  &mt LEFT_ALT ESC
             >;
         };
 
         numsym_layer {
             bindings = <
-&trans  &kp N1        &kp N2     &kp N3   &kp N4   &kp N5          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans        &trans
-&trans  &kp NUMBER_6  &kp N7     &kp N8   &kp N9   &kp NUMBER_0    &kp LEFT          &kp DOWN           &kp UP          &kp RIGHT        &kp ASTERISK  &trans
-&trans  &kp GRAVE     &kp TILDE  &kp DQT  &kp SQT  &kp BSLH        &kp LESS_THAN     &kp GREATER_THAN   &kp MINUS       &kp EQUAL        &kp SLASH     &trans
-                                 &trans   &trans   &trans          &trans            &trans             &trans
+&trans  &kp N1        &kp N2            &kp N3         &kp N4     &kp N5          &kp LESS_THAN     &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp EQUAL     &trans
+&trans  &kp NUMBER_6  &kp N7            &kp N8         &kp N9     &kp NUMBER_0    &kp LEFT          &kp DOWN               &kp UP           &kp RIGHT          &kp ASTERISK  &trans
+&trans  &kp GRAVE     &kp SINGLE_QUOTE  &kp SEMICOLON  &kp SLASH  &kp BSLH        &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp MINUS     &trans
+                                        &trans         &trans     &trans          &trans            &trans                 &trans
             >;
         };
 
         fun_layer {
             bindings = <
-&trans  &kp F1  &kp F4  &kp F7  &kp F10  &kp C_VOL_UP    &kp C_BRIGHTNESS_INC  &kp K_PASTE     &kp UP_ARROW    &kp K_COPY  &kp ESC        &trans
-&trans  &kp F2  &kp F5  &kp F8  &kp F11  &kp C_MUTE      &kp C_PLAY_PAUSE      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT   &kp PG_UP      &trans
-&trans  &kp F3  &kp F6  &kp F9  &kp F12  &kp C_VOL_DN    &kp C_BRIGHTNESS_DEC  &kp K_UNDO      &kp K_REDO      &kp K_CUT   &kp PAGE_DOWN  &trans
-                        &trans  &trans   &trans          &trans                &trans          &trans
+&trans  &kp SPACE  &kp UP_ARROW     &kp ENTER       &kp PAGE_UP    &kp C_VOL_UP    &kp C_BRIGHTNESS_INC  &kp F1  &kp F4  &kp F7  &kp F10  &trans
+&trans  &kp LEFT   &kp DOWN         &kp RIGHT       &kp HOME       &kp C_MUTE      &kp C_PLAY_PAUSE      &kp F2  &kp F5  &kp F8  &kp F11  &trans
+&trans  &kp INS    &kp PRINTSCREEN  &kp SCROLLLOCK  &kp PAGE_DOWN  &kp C_VOL_DN    &kp C_BRIGHTNESS_DEC  &kp F3  &kp F6  &kp F9  &kp F12  &trans
+                                    &trans          &trans         &trans          &trans                &trans  &trans
             >;
         };
 
