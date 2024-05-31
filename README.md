@@ -7,7 +7,7 @@
 ## Layout philosophy
 
 - convinience is priority and minimal by design
-- primary **coleman mod-dh** layer for alpha
+- primary **colemak mod-dh** layer for alpha
 - **coding friendly** symbol layer for nums and symbols
 - **fun layer** for media and other functional stuff
 - **system layer** for system level controls
