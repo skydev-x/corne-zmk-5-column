@@ -19,10 +19,6 @@
 - The CM Layout has 5x3 keys per hand so we can only fit
   the main alphabets so we need to use other ZMK features to fit our mod keys.
 
-- We use side two key as combos for the side bar keys
-
-![special_key_combos.png](docs/chillmin/combo1.png)
-
 ### Base layer
 
 Colemak layer as base only important thing is the modifier keys, enter end space keys.
@@ -60,3 +56,7 @@ Colemak layer as base only important thing is the modifier keys, enter end space
 ![right hand combo](docs/chillmin/combo_r.png)
 
 ![sys combo](docs/chillmin/combo2.png)
+
+- We use side two key as combos for the side bar keys
+
+![special_key_combos.png](docs/chillmin/combo1.png)
