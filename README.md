@@ -57,6 +57,4 @@ Colemak layer as base only important thing is the modifier keys, enter end space
 
 ![sys combo](docs/chillmin/combo2.png)
 
-- We use side two key as combos for the side bar keys
-
 ![special_key_combos.png](docs/chillmin/combo1.png)
